@@ -222,11 +222,11 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/sda/gaodh/projects/Prompt-Highlighter/checkpointsllava-v1.5-13b")
+    parser.add_argument("--model-path", type=str, default="/sda/gaodh/projects/CoF/checkpointsllava-v1.5-13b")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--image-folder", type=str, default="")
     parser.add_argument("--question-file", type=str, default="base_models/LLaVA/playground/data/eval/mmbench/mmbench_dev_20230712.tsv")
-    parser.add_argument("--answers-file", type=str, default="/sda/gaodh/projects/Prompt-Highlighter/base_models/LLaVA/playground/data/eval/mmbench/answers/mmbench_dev_20230712/llava-v1.5-13b.jsonl")
+    parser.add_argument("--answers-file", type=str, default="/sda/gaodh/projects/CoF/base_models/LLaVA/playground/data/eval/mmbench/answers/mmbench_dev_20230712/llava-v1.5-13b.jsonl")
     parser.add_argument("--conv-mode", type=str, default="llava_v1")
     parser.add_argument("--num-chunks", type=int, default=1)
     parser.add_argument("--chunk-idx", type=int, default=0)

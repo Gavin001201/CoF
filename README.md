@@ -1,5 +1,7 @@
 # CoF: Coarse to Fine-Grained Image Understanding for Multi-modal Large Language Models
 
+[CoF: Coarse to Fine-Grained Image Understanding for Multi-modal Large Language Models](https://arxiv.org/pdf/2412.16869) (published at ICASSP 2025).
+
 ## Introduction
 
 This is the official implementation of the paper *CoF: Coarse to Fine-Grained Image Understanding for Multi-modal Large Language Models*.  In this paper,  we propose 
@@ -35,6 +37,21 @@ For MME:
 ```bash
 bash examples/eval_scripts/mme_hl.sh
 ```
+
+## Citation
+Please cite the following paper if you find the repo helpful:
+```
+@misc{wang2024cofcoarsefinegrainedimage,
+      title={CoF: Coarse to Fine-Grained Image Understanding for Multi-modal Large Language Models}, 
+      author={Yeyuan Wang and Dehong Gao and Bin Li and Rujiao Long and Lei Yi and Xiaoyan Cai and Libin Yang and Jinxia Zhang and Shanqing Yu and Qi Xuan},
+      year={2024},
+      eprint={2412.16869},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.16869}, 
+}
+```
+
 ## Acknowledgement
 
 We would like to thank the following repos for their great work:
